@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c 'echo {{0..9},{a..z}}{{0..9},{a..z}}.suffix'
+bash -c 'printf "%s\n" {{0..9},{a..z}}{{0..9},{a..z}}.suffix'
