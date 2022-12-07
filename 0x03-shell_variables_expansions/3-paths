@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l . | grep -c ^d
+echo "$PATH" | awk -F: '{ print NF }'
